@@ -10,7 +10,7 @@ export default function Header() {
   const menuToggle = () => {
     setMenuOpen(!menuOpen)
   }
-console.log(menuOpen);
+
 
   return (
     <div className="content-header">

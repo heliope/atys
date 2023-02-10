@@ -1,0 +1,11 @@
+/*Background Header*/
+footer {
+    background: url(../public/images/home-bg.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    color: var(--cor-dourada);
+  }
