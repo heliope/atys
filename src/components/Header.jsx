@@ -3,9 +3,12 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowDown, faBars, faCircleXmark } from "@fortawesome/free-solid-svg-icons";
 import { useState } from "react";
 
-export default function Header() {
+export default function Header(props) {
 
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const {toggleAboutUs, setToggleAboutUs} = props;
+
 
   const menuToggle = () => {
     setMenuOpen(!menuOpen)
@@ -35,8 +38,8 @@ export default function Header() {
                 <FontAwesomeIcon className="icon-header" icon={faArrowDown} />
               </NavLink>
             </li>
-            <li>
-              <NavLink to="/">
+            <li> 
+              <NavLink to="/AboutUs/" onClick={ event => {event.preventDefault(); props.toggleAboutUs(true);}}>
                 Sobre Nós
                 <FontAwesomeIcon className="icon-header" icon={faArrowDown} />
               </NavLink>
