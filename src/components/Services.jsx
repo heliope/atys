@@ -1,7 +1,7 @@
 export default function Services () {
     return(
         <section className="services">
-            <div className="service-controlo">
+            <div className="service-item">
                 <h2>Controlo de Custos</h2>
                 <figure>
                     <img
@@ -26,7 +26,7 @@ export default function Services () {
                     </li>
                 </ul>
             </div>
-            <div className="service-marketing">
+            <div className="service-item">
                 <h2>Marketing e Vendas</h2>
                 <figure>
                     <img
@@ -51,7 +51,7 @@ export default function Services () {
                     </li>
                 </ul>
             </div>
-            <div className="service-stocks">
+            <div className="service-item">
                 <h2>Gestão de Stocks</h2>
                 <figure>
                     <img
@@ -70,7 +70,7 @@ export default function Services () {
                     </li>
                 </ul>
             </div>
-            <div className="service-automatizacao">
+            <div className="service-item">
                 <h2>Automatização de Processos</h2>
                 <figure>
                     <img
