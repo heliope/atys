@@ -10,8 +10,8 @@ export default function MainPage() {
         </h2>
           <ul className="services">
             <li>Controlo de Gestão</li>
-            <li>Marketing</li>
-            <li>Vendas</li>
+            <li>Marketing e Vendas</li>
+            <li>Gestão de Stocks</li>
             <li>Automatização de Processos</li>
           </ul>
         <NavLink className="more-information">Pedir Orçamentos</NavLink>

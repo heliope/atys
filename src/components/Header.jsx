@@ -7,7 +7,6 @@ export default function Header(props) {
 
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const {toggleAboutUs, setToggleAboutUs} = props;
 
 
   const menuToggle = () => {
@@ -39,13 +38,13 @@ export default function Header(props) {
               </NavLink>
             </li>
             <li> 
-              <NavLink to="/AboutUs/" onClick={ event => {event.preventDefault(); props.toggleAboutUs(true);}}>
+              <NavLink to="/AboutUs/">
                 Sobre Nós
                 <FontAwesomeIcon className="icon-header" icon={faArrowDown} />
               </NavLink>
             </li>
             <li>
-              <NavLink to="/">
+              <NavLink to="/Services/">
                 Serviços
                 <FontAwesomeIcon className="icon-header" icon={faArrowDown} />
               </NavLink>

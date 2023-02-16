@@ -25,8 +25,6 @@ export default function AboutUs() {
           Sustentabilidade e Objetividade.
         </p>
       </div>
-
-
       <div className="sobre-nos">
         <img src="/images/sobrenos.png" alt="imagens dos sócios"/>
       </div>
