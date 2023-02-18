@@ -175,7 +175,7 @@ figure.main-image img{
 
     ul.services{
         display: flex;
-        flex-direction: column; /* row é padrão */
+        flex-direction: column;
         justify-content: center;
         padding-right: 20px;
         list-style: none ;

@@ -56,7 +56,7 @@ export default function Header(props) {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/">
+              <NavLink to="/Contacts/">
                 Contactos
                 <FontAwesomeIcon className="icon-header" icon={faArrowDown} />
               </NavLink>

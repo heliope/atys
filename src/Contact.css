@@ -1,0 +1,424 @@
+div.form {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.image-form{
+  width: 45%;
+}
+
+div.image-form img{
+  width: 100%;
+}
+
+div.auxiliar-form {
+  flex: 0 0 55%;
+}
+
+.auxiliar-contactos{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+div.auxiliar-form h2 {
+  font-size: 1.5rem;
+  line-height: 30px;
+}
+
+div.auxiliar-form h1 {
+  display: block;
+  font-size: 2rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.auxiliar-form form input {
+  background: #fafafa;
+  border: 1px solid #D0DCEC;
+  border-radius: 4px;
+  line-height: 50px;
+  margin-bottom: 10px;
+  margin-right: 1px;
+  padding: 0 20px;
+  color: #696969;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+div.auxiliar-form form input.name-control{
+  width: 80%;
+}
+
+div.auxiliar-form form input.email-control{
+  width: 45%;
+  margin-right: 5%;
+}
+
+div.auxiliar-form form input.phone-control{
+  width: 45%;
+  margin-right: 0px;
+}
+
+div.auxiliar-contactos{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+div.auxiliar-form form textarea.message-control {
+  line-height: 25px;
+  padding: 15px 20px;
+  background: #fafafa;
+  border: 1px solid #D0DCEC;
+  border-radius: 4px;
+  margin-bottom: 5px;
+  color: #696969;
+  font-size: 1rem;
+  font-weight: 400;
+  width: 80%;
+  overflow: auto;
+  resize: vertical;
+}
+
+button.envio-mensagem{
+  padding: 5px;
+  border: 5px solid var(--cor-dourada);
+  border-radius: 35px;
+  background-color: var(--cor-dourada);
+  font-size: 1.3rem;
+  color: #fff;
+  text-align: center;
+}
+
+div.form p.contact{
+  text-align: center;
+  color: var(--cor-dourada);
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+div.cards{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+div.cards div.card-address i{
+  font-size: 30px;
+}
+
+svg path{
+  fill: var(--cor-azul-claro);
+}
+
+div.cards div.card-address{
+  width: 30%;
+  border: 1px solid #D0DCEC;
+  margin-right: 5px;
+  font-size: 1rem;
+  text-align: center;
+  font-weight: bold;
+  border-radius: 52px;
+  color:  var(--cor-azul-escuro);
+  font-size: 1rem;
+}
+
+div.cards div.card-address p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color:  var(--cor-dourada);
+}
+
+div.cards div.card-phone address{
+  text-decoration: none;
+  color:  var(--cor-azul-escuro);
+  font-size: 1.2rem;
+}
+
+div.cards div.card-phone i{
+  font-size: 30px;
+}
+
+div.cards div.card-phone{
+  width: 30%;
+  text-align: center;
+  border: 1px solid #D0DCEC;
+  margin-right: 5px;
+  border-radius: 52px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+div.cards div.card-phone a{
+  text-decoration: none;
+  color:  var(--cor-azul-escuro);
+}
+
+div.cards div.card-phone p{
+  margin-top: 0px;
+  margin-bottom: 5px;
+  font-size: 1rem;
+  color:  var(--cor-dourada);
+}
+
+div.cards div.card-phone a{
+  color:  var(--cor-azul-escuro);
+  font-size: 1.2rem;
+}
+
+div.cards div.card-email i{
+  font-size: 30px;
+}
+
+div.cards div.card-email{
+  width: 30%;
+  text-align: center;
+  border: 1px solid #D0DCEC;
+  border-radius: 52px;
+  margin: 0 auto;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+div.cards div.card-email p{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 1rem;
+  color:  var(--cor-dourada);
+}
+
+div.cards div.card-email a{
+  color:  var(--cor-azul-escuro);
+  font-size: 1.2rem;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+
+@media (max-width: 1382px) {
+
+  div.cards div.card-email a{
+    font-size: 1.1rem;
+    word-wrap: break-word;
+  }
+
+  div.cards div.card-phone a{
+    color:  var(--cor-azul-escuro);
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 1140px) {
+
+  div.cards div.card-phone address{
+    font-size: 1rem;
+  }
+
+  div.cards div.card-email a{
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+
+  div.cards div.card-phone a{
+    color:  var(--cor-azul-escuro);
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 1032px) {
+
+  div.cards div.card-email a{
+    font-size: 1rem;
+    word-wrap: break-word;
+  }
+
+  div.cards div.card-phone a{
+    color:  var(--cor-azul-escuro);
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 856px) {
+
+  div.form {
+    display: block;
+  }
+
+  div.image-form{
+    margin: 0 auto;
+  }
+
+  div.auxiliar-form{
+    margin: 0 auto;
+    align-items: center;
+    margin-left: 30px;
+  }
+
+  div.image-form{
+    width: 35%;
+  }
+
+  div.auxiliar-form form input {
+    line-height: 30px;
+  }
+  
+  div.auxiliar-form form textarea.message-control {
+    padding: 0;
+    line-height: 20px;
+    width: 85%;
+  }
+
+  button.envio-mensagem{
+    padding: 5px;
+    border: 5px solid var(--cor-dourada);
+    border-radius: 35px;
+    background-color: var(--cor-dourada);
+    font-size: 1.1rem;
+    color: #fff;
+    text-align: center;
+  }
+
+  div.form p.contact{
+    text-align: center;
+    color: var(--cor-dourada);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  div.auxiliar-form h2 {
+    font-size: 1.3rem;
+    line-height: 20px;
+  }
+  
+  div.auxiliar-form h1 {
+    display: block;
+    font-size: 1.5rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  @media (max-width: 520px) {
+    div.cards{
+      margin-left: -20px;
+      margin-bottom: 10px;
+    }
+
+    div.cards div.card-address i{
+      font-size: 15px;
+      display: inline;
+    }
+
+    div.cards div.card-address{
+      width: 40%;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      display: inline;
+      color:  var(--cor-azul-escuro);
+      font-size: 1rem;
+      text-align: left;
+    }
+    
+    div.cards div.card-address p{
+      display: inline;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      color:  var(--cor-dourada);
+    }
+
+    div.cards div.card-phone i{
+      font-size: 15px;
+      display: inline;
+    }
+
+    div.cards div.card-phone{
+      width: 40%;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      display: inline;
+      color:  var(--cor-azul-escuro);
+      font-size: 1rem;
+      text-align: left;
+      margin-top: 0px;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+    
+    div.cards div.card-phone p{
+      display: inline;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      color:  var(--cor-dourada);
+    }
+    div.cards div.card-phone a{
+      display: block;
+    }
+
+    div.cards div.card-email i{
+      font-size: 15px;
+      display: inline;
+    }
+
+    div.cards div.card-email{
+      width: 100%;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      display: inline;
+      color:  var(--cor-azul-escuro);
+      font-size: 1rem;
+      text-align: left;
+      margin-top: 15px;
+    }
+    
+    div.cards div.card-email p{
+      display: block;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      color:  var(--cor-dourada);
+    }
+
+    div.cards div.card-email i{
+      font-size: 20px;
+      display: inline;
+    }
+
+    div.cards div.card-email{
+      margin-top: 20px;
+      width: 100%;
+      border: none;
+      font-size: 1rem;
+      font-weight: bold;
+      display: inline;
+      color:  var(--cor-azul-escuro);
+      font-size: 1rem;
+      text-align: left;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    
+    div.cards div.card-email p{
+      display: inline;
+      margin-top: 0px;
+      margin-bottom: 5px;
+      font-size: 1.2rem;
+      color:  var(--cor-dourada);
+    }
+    div.cards div.card-email a{
+      display: block;
+    }
+    
+    
+
+  }
+
+}

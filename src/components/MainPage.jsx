@@ -14,7 +14,7 @@ export default function MainPage() {
             <li>Gestão de Stocks</li>
             <li>Automatização de Processos</li>
           </ul>
-        <NavLink className="more-information">Pedir Orçamentos</NavLink>
+        <NavLink className="more-information">Mais Informações</NavLink>
       </div>
       <figure className="main-image">
         <img

@@ -4,9 +4,9 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     width: 100vw;
-    position: static;
+    position: fixed;
     bottom: 0;
     text-align: center;
     color: var(--cor-dourada);
-    height: 65px;
+    height: 63px;
   }

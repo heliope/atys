@@ -5,12 +5,13 @@ import "./footer.css";
 import "./Mainpage.css";
 import "./AboutUs.css";
 import "./Services.css";
+import "./Contact.css";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import MainPage from "./components/MainPage";
-import { useState } from "react";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
+import Contacts from "./components/Contacts";
 
 function App() {
 
@@ -22,7 +23,8 @@ function App() {
         <Routes>
           <Route index path="/" element={<MainPage />} />
           <Route path="/AboutUs" element={<AboutUs />} />
-          <Route path="/Services" element={<Services/>} /> 
+          <Route path="/Services" element={<Services/>} />
+          <Route path="/Contacts" element={<Contacts/>} />
         </Routes>
         <Footer />
       </div>
