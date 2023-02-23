@@ -12,6 +12,7 @@ import MainPage from "./components/MainPage";
 import AboutUs from "./components/AboutUs";
 import Services from "./components/Services";
 import Contacts from "./components/Contacts";
+import News from "./components/News";
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
           <Route path="/AboutUs" element={<AboutUs />} />
           <Route path="/Services" element={<Services/>} />
           <Route path="/Contacts" element={<Contacts/>} />
+          <Route path="/News" element={<News/>} />
         </Routes>
         <Footer />
       </div>
