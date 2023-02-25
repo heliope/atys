@@ -189,4 +189,12 @@ figure.main-image img{
     figure.main-image img{
         opacity: 0.3;
     }
+
+    div.texto{
+        margin-top: 120px;
+    }
+
+    h2{
+        margin-top: 50px;
+    }
 }
