@@ -10,3 +10,24 @@ footer {
     color: var(--cor-dourada);
     height: 63px;
   }
+
+  
+@media (max-width: 600px) {
+
+  footer{
+    height: 20px;
+    position: fixed;
+    bottom: 0;
+  }
+
+  footer p:first-child {
+    margin-right: 16px;
+  }
+  footer p {
+    font-size: 0.6rem;
+    margin-top: 0px;
+    display: inline;
+
+
+  }
+}
