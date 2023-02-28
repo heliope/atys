@@ -2,7 +2,7 @@
     background: url(../public/images/capa-mainpage.jpg);
     background-size: cover;
     background-repeat: repeat;
-    height: 78vh;
+    height: 85vh;
 }
 
 
@@ -136,13 +136,24 @@ figure.main-image img{
 
 @media (max-width: 832px) {
 
+    .texto{
+        margin-top: 20%;
+    }
+
+    ul.services{
+        margin-top: 30px;
+        color: var(--cor-azul-escuro);
+    }
+
     h1{
         font-size: 2.5rem; 
+                margin-bottom: 30px;
     }
     
     h2{
         line-height: 50px;
         font-size: 1.2rem;
+
     }
 
     .texto{
@@ -155,6 +166,14 @@ figure.main-image img{
 
     figure.main-image img{
         width: 100%;
+    }
+
+    
+    figure.main-image{
+        width: 50%;
+        margin-top: 20%;
+        float: right;
+        text-align: center;
     }
 
 }

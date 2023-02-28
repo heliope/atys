@@ -23,14 +23,14 @@ div.auxiliar-form {
 
 div.auxiliar-form h2 {
   font-size: 3rem;
-  line-height: 50px;
+  line-height: 70px;
 }
 
 div.auxiliar-form h1 {
   display: block;
   font-size: 2rem;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 div.auxiliar-form form input {
@@ -38,7 +38,7 @@ div.auxiliar-form form input {
   border: 1px solid #d0dcec;
   border-radius: 4px;
   line-height: 70px;
-  margin-bottom: 10px;
+  margin-bottom: 30px;
   margin-right: 1px;
   padding: 0 20px;
   color: #696969;
@@ -71,7 +71,7 @@ div.auxiliar-form form textarea.message-control {
   background: #fafafa;
   border: 1px solid #d0dcec;
   border-radius: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 25px;
   color: #696969;
   font-size: 1rem;
   font-weight: 400;
@@ -88,6 +88,7 @@ button.envio-mensagem {
   font-size: 1.3rem;
   color: #fff;
   text-align: center;
+  margin-top: 40px;
 }
 
 button.envio-mensagem:hover {
@@ -98,15 +99,16 @@ div.form p.contact {
   text-align: center;
   color: var(--cor-dourada);
   font-weight: bold;
-  font-size: 1.3rem;
+  font-size: 2rem;
   margin-top: 10px;
-  margin-bottom: 10px;
+  margin-bottom: 50px;
 }
 
 div.cards {
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 10px;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 div.cards div.card-address i {
@@ -197,7 +199,7 @@ div.cards div.card-email p {
 
 div.cards div.card-email a {
   color: var(--cor-azul-escuro);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   text-decoration: none;
   word-wrap: break-word;
 }
@@ -221,7 +223,7 @@ div.cards div.card-email a {
 
   div.auxiliar-form h2 {
     font-size: 2rem;
-    line-height: 50px;
+    line-height: 40px;
   }
   
   div.auxiliar-form h1 {
@@ -243,6 +245,31 @@ div.cards div.card-email a {
     font-size: 1rem;
     font-weight: 400;
   }
+
+  div.form p.contact {
+    text-align: center;
+    color: var(--cor-dourada);
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  div.cards {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+
+  button.envio-mensagem {
+    margin-top: 20px;
+    
+  }
+
+  div.auxiliar-form h1 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+  }
+  
   
 
 }

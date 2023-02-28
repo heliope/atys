@@ -82,11 +82,27 @@ section.services .service-item{
         vertical-align: center;
     }
 
-
-
     section.services .service-item h2{
-        line-height: 50px;
+        line-height: 40px;
         }
+            
+        .service-item figure{
+            display: inline;
+            position: absolute;
+            margin-right: 0px;
+            margin-top: -20px;
     
+        }
+}
+
+@media (max-width: 833px) {
+            
+    .service-item figure{
+        display: inline;
+        position: absolute;
+        margin-right: 0px;
+        margin-top: 0px;
+
+    }
 
 }

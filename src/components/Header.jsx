@@ -8,15 +8,15 @@ export default function Header(props) {
   const [menuOpen, setMenuOpen] = useState(false);
 
 
-
   const menuToggle = () => {
     setMenuOpen(!menuOpen)
   }
 
 
+
   return (
     <div className="content-header">
-      <div className="header">
+      <div className="header" >
         <div className="site-logo">
           <img
             src="/images/logotipo.png"
@@ -27,7 +27,7 @@ export default function Header(props) {
         <div className="auxiliar"></div>
         <nav className="nav-header" role="navigation">
           <div className="link-hamburguer" onClick={menuToggle}>
-              <a className={`hamburguer-${menuOpen ? "list" : "closelist"}`} href="#/"><FontAwesomeIcon icon={faCircleXmark}/></a>
+              <a className={`hamburguer-${menuOpen ? "list" : "closelist"}`}  href="#/"><FontAwesomeIcon icon={faCircleXmark}/></a>
               <a className={`hamburguer-${menuOpen ? "closelist" : ""}`} href="#/"><FontAwesomeIcon icon={faBars}/></a>
           </div>
           <ul className={`menuNav-${menuOpen ? "menuOpen" : ""}`}>
